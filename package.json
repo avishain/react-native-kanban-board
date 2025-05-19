@@ -1,0 +1,34 @@
+{
+  "name": "react-native-kanban-board",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react-native",
+    "module",
+    "typescript",
+    "kanban",
+    "board",
+    "drag"
+  ],
+  "author": "avishain",
+  "license": "ISC",
+  "description": "Kanban board for React-Native apps. No native code. Can be used with expo.",
+  "devDependencies": {
+    "@types/lodash": "^4.17.16",
+    "@types/react": "^19.1.4",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "lodash": "^4.x.x",
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "^2.x.x",
+    "react-native-reanimated": "^3.x.x"
+  }
+}
