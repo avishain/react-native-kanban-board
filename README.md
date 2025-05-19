@@ -193,4 +193,3 @@ Please open a PR so I'll review before merging.
 
 MIT
 
-```
