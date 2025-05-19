@@ -1,10 +1,15 @@
 # react-native-kanban-board
-Kanban board for React-Native apps
+#### Kanban board for React-Native apps
 
 A performant and customizable Kanban board component for React Native, enabling drag and drop functionality between stages. Built with React Native Reanimated for smooth animations and gestures.
 
 [![npm version](https://badge.fury.io/js/react-native-kanban-board.svg)](https://www.npmjs.com/package/react-native-kanban-board)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+https://github.com/user-attachments/assets/6b92c787-76c4-4c91-9c8a-947149f457f3
+
+
+<br/>
 
 ## Features
 
@@ -22,7 +27,9 @@ A performant and customizable Kanban board component for React Native, enabling 
 
 ```bash
 npm install react-native-kanban-board
+```
 or
+```bash
 yarn add react-native-kanban-board
 ```
 ## Props
