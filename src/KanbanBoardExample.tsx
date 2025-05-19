@@ -26,7 +26,7 @@ const KanbanBoardExample = () => {
 
   const renderItem = (props: { id: string }, isDragged?: boolean) => {
     return (
-      <View style={[styles.itemContainer, { backgroundColor: isDragged ? 'rgb(150, 170, 180)' : 'rgb(255,255,255)' }]}>
+      <View style={[styles.itemContainer, isDragged ? styles.draggedItem : {}]}>
         <Text>{props.id}</Text>
       </View>
     );
@@ -34,7 +34,7 @@ const KanbanBoardExample = () => {
 
   const renderHeader = (props: HeaderParams) => {
     return (
-      <View>
+      <View style={{ padding: 10, alignItems: 'center' }}>
         <Text style={{ fontWeight: 'bold' }}>{props.title}</Text>
         <Text>{props.subtitle}</Text>
       </View>
@@ -87,11 +87,10 @@ const KanbanBoardExample = () => {
 
 const styles = StyleSheet.create({
   stageContainer: {
-    backgroundColor: 'blue',
+    backgroundColor: 'rgb(230,230,230)',
     borderRadius: 12,
-  },
-  dragItem: {
-    backgroundColor: 'yellow',
+    borderColor: 'rgb(214, 214, 214)',
+    borderWidth: 1,
   },
   stageContainerWhenPotenialDragTo: {
     opacity: .7,
@@ -100,8 +99,15 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     marginVertical: 10,
     justifyContent: 'center',
-    alignItems: 'center'
-  }
+    backgroundColor: 'white',
+    alignItems: 'center',
+    borderRadius: 10,
+  },
+  draggedItem: {
+    backgroundColor: 'rgb(160,180,200)',
+    borderColor: 'white',
+    borderWidth: 2,
+  },
 });
 
 export default KanbanBoardExample;
