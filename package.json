@@ -1,7 +1,10 @@
 {
   "name": "react-native-kanban-board",
   "license": "MIT",
-  "homepage": "https://github.com/D10S60948/react-native-range-slider-expo#readme",
+  "homepage": "https://github.com/avishain/react-native-kanban-board#readme",
+  "repository": {
+    "url": "https://github.com/avishain/react-native-kanban-board"
+  },
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
